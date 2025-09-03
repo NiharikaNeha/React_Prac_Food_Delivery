@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdFastfood } from "react-icons/md";
 import { IoSearch } from "react-icons/io5";
-import { FaShoppingBag } from "react-icons/fa";
+import { FaBasketShopping } from "react-icons/fa6";
 
 const Nav = () => {
   return (
@@ -14,8 +14,8 @@ const Nav = () => {
             <input type="text" placeholder='Search Your Appetite...' className='w-[100%] outline-0 text-[20px]' />
         </form>
         <div className='w-[60px] h-[60px] bg-white flex justify-center items-center rounded-lg shadow-xl relative' >
-            <span className='absolute top-1 right-1  text-md text-gray-700 bg-red-500 rounded-full h-[20px] w-[20px] flex items-center justify-center'>0</span>
-            <FaShoppingBag className='w-[30px] h-[30px] text-red-500' />
+            <span className='absolute top-1 right-1  text-lg text-gray-700 font-bold rounded-full h-[20px] w-[20px] flex items-center justify-center'>0</span>
+            <FaBasketShopping className='w-[30px] h-[30px] text-red-500' />
         </div>
     </div>
   )
